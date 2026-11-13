@@ -1,0 +1,1456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoAura</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-[#080b14] text-white">
+    <!-- SHOP NOW BAR -->
+    <div class="hidden sm:block w-full bg-white text-black">
+      <div
+        class="max-w-[1320px] mx-auto px-4 sm:px-6 py-3 flex items-center justify-center gap-4 sm:gap-6"
+      >
+        <p class="text-xs sm:text-sm md:text-base font-medium">
+          🔥 Shop Now & Save Up to 40%
+        </p>
+
+        <a
+          href="#"
+          class="bg-blue-700 text-white px-6 sm:px-7 py-2 rounded-full text-xs sm:text-sm font-semibold"
+        >
+          Buy Now
+        </a>
+      </div>
+    </div>
+
+    <!-- INFORMATION BAR -->
+    <div class="hidden sm:block w-full bg-red-600">
+      <div
+        class="max-w-[1320px] mx-auto px-4 sm:px-6 py-3 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3"
+      >
+        <div
+          class="flex flex-col sm:flex-row items-center gap-2 sm:gap-5 text-xs sm:text-sm font-medium"
+        >
+          <span>✉ info@autoaura.com</span>
+          <span class="hidden sm:block">|</span>
+          <span>◷ Working: 8.00am - 5.00pm</span>
+        </div>
+
+        <p class="text-xs sm:text-sm font-medium text-center">
+          Car Service - 50% OFF Limited Time Offer!
+        </p>
+      </div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section
+      class="relative min-h-[700px] sm:min-h-[750px] lg:min-h-[850px] overflow-hidden"
+    >
+      <!-- BACKGROUND IMAGE -->
+      <div class="absolute inset-0">
+        <img
+          src="image/car.jpg.png"
+          alt="Professional Auto Detailing"
+          class="w-full h-full object-cover"
+        />
+      </div>
+
+      <!-- DARK OVERLAY -->
+      <div class="absolute inset-0 bg-black/60"></div>
+
+      <!-- NAVBAR -->
+      <nav class="relative z-20">
+        <div
+          class="max-w-[1320px] mx-auto px-5 sm:px-8 py-6 flex items-center justify-between"
+        >
+          <!-- LOGO -->
+          <div class="flex items-center gap-2">
+            <img
+              src="image/wash.jpg.png"
+              alt="Autoaura logo"
+              class="h-6 sm:h-8 w-auto"
+            />
+            <!-- <p class="text-2xl sm:text-3xl font-black tracking-tight">
+              AUTO<span class="text-red-600">AURA</span>
+            </p> -->
+          </div>
+
+          <!-- DESKTOP NAVIGATION -->
+          <div
+            class="hidden lg:flex items-center gap-7 xl:gap-9 text-sm font-semibold"
+          >
+            <!-- HOMEPAGE -->
+            <div class="relative group">
+              <a href="#">Homepage⌄</a>
+              <div
+                class="absolute left-0 top-full pt-4 hidden group-hover:block"
+              >
+                <div class="bg-white text-black w-40 p-4 shadow-lg">
+                  <a
+                    href="https://reactheme.com/products/wordpress/autoaura/"
+                    class="hover:text-red-600"
+                    >Homepage Main</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- SERVICES -->
+            <div class="relative group">
+              <a href="#" class="hover:text-red-500"> Services⌄ </a>
+
+              <div
+                class="absolute left-0 top-full pt-4 hidden group-hover:block"
+              >
+                <div class="bg-white text-black w-40 p-4 shadow-lg">
+                  <a
+                    href="https://reactheme.com/products/wordpress/autoaura/hand-wash-dry/"
+                    class="hover:text-red-600"
+                  >
+                    Service Detailing
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- PAGES -->
+            <div class="relative group">
+              <a href="#" class="hover:text-red-500"> Pages⌄ </a>
+
+              <div
+                class="absolute left-0 top-full pt-4 hidden group-hover:block"
+              >
+                <div class="bg-white text-black w-40 p-4 shadow-lg">
+                  <a
+                    href="https://reactheme.com/products/wordpress/autoaura/about-us/"
+                    class="hover:text-red-600"
+                  >
+                    About Us
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- SHOP -->
+            <div class="relative group">
+              <a href="#" class="hover:text-red-500"> Shop⌄ </a>
+
+              <div
+                class="absolute left-0 top-full pt-4 hidden group-hover:block"
+              >
+                <div class="bg-white text-black w-40 p-4 shadow-lg">
+                  <a
+                    href="https://reactheme.com/products/wordpress/autoaura/shop/"
+                    class="hover:text-red-600"
+                  >
+                    Shop
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- BLOG -->
+            <div class="relative group">
+              <a href="#" class="hover:text-red-500"> Blog⌄ </a>
+
+              <div
+                class="absolute left-0 top-full pt-4 hidden group-hover:block"
+              >
+                <div class="bg-white text-black w-40 p-4 shadow-lg">
+                  <a
+                    href="https://reactheme.com/products/wordpress/autoaura/ceramic-coating-vs-wax-which-is-better-for-your-car/"
+                    class="hover:text-red-600"
+                    >Blog Details</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- CONTACT -->
+            <a href="#">Contact Us</a>
+          </div>
+
+          <!-- APPOINTMENT -->
+          <a
+            href="https://reactheme.com/products/wordpress/autoaura/contact/"
+            class="hidden md:inline-flex bg-red-600 px-6 xl:px-8 py-3 rounded-full text-xs sm:text-sm font-semibold"
+          >
+            Make Appointment →
+          </a>
+
+          <!-- MOBILE ICON -->
+          <button class="lg:hidden text-2xl">☰</button>
+        </div>
+      </nav>
+
+      <!-- HERO CONTENT -->
+      <div
+        class="relative z-10 max-w-[1100px] mx-auto px-5 sm:px-8 pt-20 sm:pt-24 lg:pt-28 text-center"
+      >
+        <!-- TRUST BADGE -->
+        <div
+          class="inline-flex items-center bg-[#E9021E] border-2 border-white rounded-full px-3 py-2 sm:px-5 sm:py-3 mb-8 sm:mb-10"
+        >
+          <div class="flex -space-x-2 mr-3">
+            <div
+              class="w-7 h-7 sm:w-9 sm:h-9 rounded-full bg-white border border-white"
+            ></div>
+            <div
+              class="w-7 h-7 sm:w-9 sm:h-9 rounded-full bg-gray-300 border border-white"
+            ></div>
+            <div
+              class="w-7 h-7 sm:w-9 sm:h-9 rounded-full bg-gray-400 border border-white"
+            ></div>
+          </div>
+
+          <span class="text-xs sm:text-sm md:text-base font-bold">
+            500+ Car Owners Trust Expertise
+          </span>
+        </div>
+
+        <!-- MAIN HEADING -->
+        <h1
+          class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[82px] font-black leading-[1.05] tracking-tight"
+        >
+          Professional Auto
+          <br />
+
+          Detailing Car Services
+        </h1>
+
+        <!-- DESCRIPTION -->
+        <p
+          class="max-w-[650px] mx-auto mt-7 sm:mt-8 text-sm sm:text-base text-gray-200 leading-7"
+        >
+          Car detailing is a thorough cleaning and restoration process designed
+          to keep a vehicle looking its absolute best, both inside and out.
+        </p>
+
+        <!-- MAKE APPOINTMENT BUTTON -->
+        <div class="flex justify-center mt-7">
+          <a
+            href="#"
+            class="bg-red-600 hover:bg-black active:bg-black transition-colors duration-300 px-7 py-3 rounded-full text-sm font-semibold"
+            >Make Appointment →
+          </a>
+        </div>
+        <!-- BUY NOW BUTTON - LEFT SIDE -->
+        <div
+          class="absolute left-5 sm:left-8 lg:left-[-170px] bottom-16 lg:bottom-24"
+        >
+          <a
+            href="#"
+            class="bg-sky-500 px-7 py-3 rounded-full text-sm font-semibold"
+          >
+            Buy Now
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT / SERVICES SECTION ==================== -->
+    <section class="bg-[#0d0f18] text-white py-20 sm:py-24 lg:py-32">
+      <div class="max-w-[1320px] mx-auto px-5 sm:px-8 lg:px-10">
+        <!-- ABOUT US -->
+        <div class="mb-10">
+          <span
+            class="inline-block border border-gray-500 rounded-full px-6 py-2 text-sm font-semibold"
+          >
+            About Us
+          </span>
+        </div>
+
+        <!-- HEADING AND TEXT -->
+        <div class="w-full">
+          <h2
+            class="max-w-[1250px] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl font-bold leading-tight"
+          >
+            Luxury & Premium Car Detailing Studio - Advanced Cleaning,
+            Polishing, Ceramic Coating & Protection
+          </h2>
+        </div>
+
+        <!-- DESCRIPTION -->
+        <div class="w-full flex justify-end mt-10 lg:mt-14">
+          <p
+            class="w-full max-w-[600px] text-base sm:text-lg leading-8 text-gray-300"
+          >
+            Our firm delivers comprehensive solutions for businesses and
+            individuals seeking strategic, long-term support. Backed by
+            experienced professionals, we help clients navigate complex
+            challenges with precision and confidence.
+          </p>
+        </div>
+
+        <!-- IMAGE GRID -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 mt-14 lg:mt-20"
+        >
+          <!-- CARD 1 -->
+          <div
+            class="relative h-[300px] sm:h-[380px] lg:h-[450px] overflow-hidden bg-gray-800"
+          >
+            <img
+              src="image/grid4.jpg.png"
+              alt="Machine Polish"
+              class="w-full h-full object-cover"
+            />
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-red-600/90 via-red-500/40 to-transparent"
+            ></div>
+
+            <div class="absolute bottom-0 left-0 p-7 sm:p-9">
+              <h3 class="text-2xl sm:text-3xl font-bold">Machine Polish</h3>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div
+            class="relative h-[300px] sm:h-[380px] lg:h-[450px] overflow-hidden bg-gray-800"
+          >
+            <img
+              src="image/grid1.jpg.png"
+              alt="Car Modern Steering"
+              class="w-full h-full object-cover"
+            />
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-red-600/90 via-red-500/40 to-transparent"
+            ></div>
+
+            <div class="absolute bottom-0 left-0 p-7 sm:p-9">
+              <h3 class="text-2xl sm:text-3xl font-bold">
+                Car Modern Steering
+              </h3>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div
+            class="relative h-[300px] sm:h-[380px] lg:h-[450px] overflow-hidden bg-gray-800"
+          >
+            <img
+              src="image/grid2 .jpg.png"
+              alt="Interior Cleaning"
+              class="w-full h-full object-cover"
+            />
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-red-600/90 via-red-500/40 to-transparent"
+            ></div>
+
+            <div class="absolute bottom-0 left-0 p-7 sm:p-9">
+              <h3 class="text-2xl sm:text-3xl font-bold">Ceramic Coating</h3>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div
+            class="relative h-[300px] sm:h-[380px] lg:h-[450px] overflow-hidden bg-gray-800"
+          >
+            <img
+              src="image/grid3.jpg.png"
+              alt="Ceramic Coating"
+              class="w-full h-full object-cover"
+            />
+
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-red-600/90 via-red-500/40 to-transparent"
+            ></div>
+
+            <div class="absolute bottom-0 left-0 p-7 sm:p-9">
+              <h3 class="text-2xl sm:text-3xl font-bold">
+                Headlight Restoration
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT US SECTION ================= -->
+
+    <section
+      class="bg-[#080b14] text-white py-20 sm:py-24 lg:py-32 overflow-hidden"
+    >
+      <div class="max-w-[1400px] mx-auto px-5 sm:px-8 lg:px-10">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-[1.15fr_0.85fr] gap-14 lg:gap-12 items-center"
+        >
+          <!-- LEFT SIDE IMAGES -->
+          <div class="flex items-start justify-center gap-5 sm:gap-6 lg:gap-8">
+            <!-- LEFT TALL IMAGE -->
+            <div
+              class="w-[42%] sm:w-[40%] h-[420px] sm:h-[500px] lg:h-[600px] overflow-hidden rounded-t-full rounded-b-full"
+            >
+              <img
+                src="image/mir.jpg.png"
+                alt="Car Detailing"
+                class="w-full h-full object-cover"
+              />
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div
+              class="w-[38%] sm:w-[46%] h-[420px] sm:h-[500px] lg:h-[600px] overflow-hidden rounded-t-full rounded-b-full mt-10 sm:mt-14 lg:mt-16"
+            >
+              <img
+                src="image/mirror.jpg (2).png"
+                alt="Luxury Car"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+
+          <!-- RIGHT SIDE CONTENT -->
+          <div class="lg:pl-5">
+            <span
+              class="inline-block border border-gray-500 rounded-full px-5 py-2 text-sm font-medium mb-8"
+            >
+              About Us
+            </span>
+
+            <h2
+              class="text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl font-bold leading-[1.1]"
+            >
+              Because Your Car<br />
+              Deserves the Best
+            </h2>
+
+            <p
+              class="text-gray-300 text-base sm:text-lg leading-8 mt-8 max-w-[580px]"
+            >
+              At we are passionate about restoring and protecting the beauty of
+              every vehicle we service. Our experienced team uses premium
+              products and meticulous attention to detail.
+            </p>
+
+            <!-- WORKING HOURS -->
+            <div class="flex items-center gap-4 mt-8">
+              <div
+                class="w-12 h-12 rounded-full border border-gray-600 flex items-center justify-center text-xl"
+              >
+                ◷
+              </div>
+
+              <div>
+                <h4 class="text-lg font-semibold">Working Hours</h4>
+
+                <p class="text-gray-400 mt-1">
+                  Monday - Friday: 10:00 AM - 8:00 PM
+                </p>
+              </div>
+            </div>
+
+            <!-- BUTTON -->
+            <button
+              class="mt-9 bg-red-600 hover:bg-red-500 px-7 sm:px-8 py-4 rounded-full font-semibold transition"
+            >
+              Make Appointment →
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFFICE LOCATIONS SECTION -->
+    <section class="bg-[#080b14] px-5 py-16 sm:px-8 lg:px-10 lg:py-24">
+      <div class="mx-auto max-w-[1400px]">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
+          <!-- HEAD OFFICE -->
+          <div
+            class="relative min-h-[500px] overflow-hidden rounded-[20px] sm:min-h-[580px]"
+          >
+            <!-- IMAGE -->
+            <img
+              src="image/image29.jpg.webp"
+              alt="Autoaura Head Office"
+              class="absolute inset-0 h-full w-full object-cover"
+            />
+
+            <!-- INFO BOX -->
+            <div
+              class="absolute bottom-6 left-5 right-5 rounded-[20px] bg-white px-6 py-8 sm:bottom-8 sm:left-8 sm:right-8 sm:px-8 sm:py-10"
+            >
+              <h2 class="text-2xl font-semibold text-gray-900 sm:text-3xl">
+                Autoaura Head Office
+              </h2>
+
+              <div
+                class="mt-5 flex flex-col gap-4 text-gray-500 sm:flex-row sm:items-center sm:gap-8"
+              >
+                <div class="flex items-center gap-3">
+                  <span class="text-xl text-red-500">📍</span>
+                  <p>XYZ Hilton United State</p>
+                </div>
+
+                <div class="flex items-center gap-3">
+                  <span class="text-xl text-red-500">📞</span>
+                  <p>(+256) 2145.2156</p>
+                </div>
+              </div>
+
+              <button
+                class="mt-6 rounded-full bg-red-600 px-6 py-3 text-sm font-semibold text-white"
+              >
+                Make Appointment →
+              </button>
+            </div>
+          </div>
+
+          <!-- BRANCH OFFICE -->
+          <div
+            class="relative min-h-[500px] overflow-hidden rounded-[20px] sm:min-h-[580px]"
+          >
+            <!-- IMAGE -->
+            <img
+              src="image/image30.jpg.png"
+              alt="Autoaura Branch Office"
+              class="absolute inset-0 h-full w-full object-cover"
+            />
+
+            <!-- INFO BOX -->
+            <div
+              class="absolute bottom-6 left-5 right-5 rounded-[20px] bg-white px-6 py-8 sm:bottom-8 sm:left-8 sm:right-8 sm:px-8 sm:py-10"
+            >
+              <h2 class="text-2xl font-semibold text-gray-900 sm:text-3xl">
+                Autoaura Branch Office
+              </h2>
+
+              <div
+                class="mt-5 flex flex-col gap-4 text-gray-500 sm:flex-row sm:items-center sm:gap-8"
+              >
+                <div class="flex items-center gap-3">
+                  <span class="text-xl text-red-500">📍</span>
+                  <p>XYZ Hilton United State</p>
+                </div>
+
+                <div class="flex items-center gap-3">
+                  <span class="text-xl text-red-500">📞</span>
+                  <p>(+256) 2145.2156</p>
+                </div>
+              </div>
+
+              <button
+                class="mt-6 rounded-full bg-red-600 px-6 py-3 text-sm font-semibold text-white"
+              >
+                Make Appointment →
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES / FEATURES SECTION -->
+    <section class="bg-[#121212] px-5 py-16 sm:px-8 lg:px-10 lg:py-24">
+      <div class="mx-auto max-w-[1400px] px-5 sm:px-8 lg:px-12">
+        <!-- CARDS -->
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- CARD 1 -->
+          <div
+            class="min-h-[380px] sm:min-h[400px] lg:min-h-[430px] rounded-2xl border-2 border-transparent bg-[#232323] p-8 transition duration-300 hover:border-red-500"
+          >
+            <!-- ICON IMAGE SPACE -->
+            <div class="mb-16 h-14 w-14">
+              <img src="image/imgi92.jpg.png" alt="" />
+            </div>
+
+            <h3 class="mb-5 text-2xl font-bold text-white">Premium Quality</h3>
+
+            <p class="text-base leading-7 text-gray-300">
+              Make informed decisions with actionable data and deep
+              intelligence.
+            </p>
+          </div>
+
+          <!-- CARD 2 -->
+          <div
+            class="min-h-[380px] sm:min-h[400px] lg:min-h-[430px] rounded-2xl border-2 border-transparent bg-[#232323] p-8 transition duration-300 hover:border-red-500"
+          >
+            <!-- ICON IMAGE SPACE -->
+            <div class="mb-16 h-14 w-14">
+              <img src="image/imgi93.jpg.png" alt="" />
+            </div>
+
+            <h3 class="mb-5 text-2xl font-bold text-white">
+              Competitive Pricing
+            </h3>
+
+            <p class="text-base leading-7 text-gray-300">
+              Whether you're looking for a brand-new model or a certified, we
+              have a diverse.
+            </p>
+          </div>
+
+          <!-- CARD 3 -->
+          <div
+            class="min-h-[380px] sm:min-h[400px] lg:min-h-[430px] rounded-2xl border-2 border-transparent bg-[#232323] p-8 transition duration-300 hover:border-red-500"
+          >
+            <!-- ICON IMAGE SPACE -->
+            <div class="mb-16 h-14 w-14">
+              <img src="image/imgi94.jpg.png" alt="" />
+            </div>
+
+            <h3 class="mb-5 text-2xl font-bold text-white">
+              Certified Experts
+            </h3>
+
+            <p class="text-base leading-7 text-gray-300">
+              Whether you're looking for a brand-new model or a certified, we
+              have a diverse.
+            </p>
+          </div>
+
+          <!-- CARD 4 -->
+          <div
+            class="min-h-[380px] sm:min-h[400px] lg:min-h-[430px] rounded-2xl border-2 border-transparent bg-[#232323] p-8 transition duration-300 hover:border-red-500"
+          >
+            <!-- ICON IMAGE SPACE -->
+            <div class="mb-16 h-14 w-14">
+              <img src="image/imgi95.jpg.png" alt="" />
+            </div>
+
+            <h3 class="mb-5 text-2xl font-bold text-white">24/7 Support</h3>
+
+            <p class="text-base leading-7 text-gray-300">
+              Whether you're looking for a brand-new or a certified, we have a
+              diverse.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="relative py-14 sm:py-20 md:py-24 px-4 sm:px-6 bg-[radial-gradient(ellipse_at_center,_#e01b3d_0%,_#7a0f22_45%,_#0a0a0a_85%)] overflow-hidden"
+    >
+      <div class="max-w-6xl mx-auto text-center">
+        <!-- Badge -->
+        <span
+          class="inline-block border border-white/40 rounded-full px-5 py-1 text-xs tracking-widest uppercase text-white/90 mb-4"
+        >
+          Partners
+        </span>
+
+        <!-- Heading -->
+        <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-14">
+          Our Trusted Partners
+        </h2>
+
+        <!-- Logo grid -->
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6"
+        >
+          <div
+            class="bg-neutral-100 rounded-2xl aspect-square flex items-center justify-center p-6 shadow-lg"
+          >
+            <img
+              src="image/jeep.jpg.png"
+              alt="Jeep"
+              class="max-w-full max-h-full object-contain"
+            />
+          </div>
+
+          <div
+            class="bg-neutral-100 rounded-2xl aspect-square flex items-center justify-center p-6 shadow-lg"
+          >
+            <img
+              src="image/ford.jpg.png"
+              alt="Ford"
+              class="max-w-full max-h-full object-contain"
+            />
+          </div>
+
+          <div
+            class="bg-neutral-100 rounded-2xl aspect-square flex items-center justify-center p-6 shadow-lg"
+          >
+            <img
+              src="image/mazda.jpg.png"
+              alt="Mazda"
+              class="max-w-full max-h-full object-contain"
+            />
+          </div>
+
+          <div
+            class="bg-neutral-100 rounded-2xl aspect-square flex items-center justify-center p-6 shadow-lg"
+          >
+            <img
+              src="image/bmw.jpg.png"
+              alt="BMW"
+              class="max-w-full max-h-full object-contain"
+            />
+          </div>
+
+          <div
+            class="bg-neutral-100 rounded-2xl aspect-square flex items-center justify-center p-6 shadow-lg"
+          >
+            <img
+              src="image/suzuki.jpg.png"
+              alt="Honda"
+              class="max-w-full max-h-full object-contain"
+            />
+          </div>
+
+          <div
+            class="bg-neutral-100 rounded-2xl aspect-square flex items-center justify-center p-6 shadow-lg"
+          >
+            <img
+              src="image/audi.jpg.png"
+              alt="Audi"
+              class="max-w-full max-h-full object-contain"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial quote -->
+      <div class="max-w-4xl mx-auto text-center mt-12 md:mt-20 px-4">
+        <p
+          class="text-xl sm:text-2xl md:text-4xl font-bold text-white leading-snug mb-6 md:mb-10"
+        >
+          AutoDetail's team restored my vehicle beautifully, delivering
+          outstanding results with exceptional care and professionalism
+          throughout the entire process
+        </p>
+
+        <!-- Avatar stack -->
+        <div
+          class="flex justify-center items-center -space-x-3 gap-12 md:-space-x-4 mb-3 md:mb-4"
+        >
+          <img
+            src="image/boy.jpg.png"
+            alt="Avatar"
+            class="w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-white/70 object-cover opacity-70"
+          />
+          <img
+            src="image/boi.jpg.png"
+            alt="Stefan Sears"
+            class="w-12 h-12 md:w-16 md:h-16 rounded-full border-2 border-white object-cover z-10"
+          />
+          <img
+            src="image/girl.jpg.png"
+            alt="Avatar"
+            class="w-8 h-8 md:w-10 md:h-10 rounded-full border-2 border-white/70 object-cover opacity-70"
+          />
+        </div>
+
+        <!-- Name / role -->
+        <h4 class="text-white font-bold text-base md:text-lg">Stefan Sears</h4>
+        <p class="text-white/70 text-sm mb-6 md:mb-10">Developer</p>
+      </div>
+    </section>
+
+    <section class="relative py-14 sm:py-20 md:py-24 px-6 sm:px-10 bg-black">
+      <div class="max-w-[1300px] mx-auto">
+        <!-- Label -->
+        <span class="block text-white/60 text-sm tracking-wide uppercase mb-2">
+          Latest Blog
+        </span>
+
+        <!-- Heading -->
+        <h2
+          class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-10 md:mb-14"
+        >
+          Our Latest Blog
+        </h2>
+
+        <!-- Blog grid -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10"
+        >
+          <!-- Card 1 -->
+          <div
+            class="bg-[#232323] border border-white/10 rounded-2xl p-5 sm:p-6"
+          >
+            <div class="overflow-hidden rounded-xl mb-5">
+              <img
+                src="image/bugatti.jpg.png"
+                alt="Ceramic Coating"
+                class="w-full h-64 sm:h-72 object-cover transition-transform duration-500 hover:scale-110"
+              />
+            </div>
+            <p class="text-white/70 text-sm mb-2">
+              Ceramic Coating
+              <span class="text-white/50">By</span> autoaura-admin
+            </p>
+            <h3 class="text-white font-bold text-lg sm:text-xl mb-4">
+              How to Detail Your Car at Home Like a Professional
+            </h3>
+            <a
+              href="#"
+              class="inline-flex items-center gap-1 text-white font-semibold hover:text-red-500 transition"
+            >
+              Read More <span>&rsaquo;</span>
+            </a>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-[#232323] border border-white/10 rounded-2xl p-5 sm:p-6"
+          >
+            <div class="overflow-hidden rounded-xl mb-5">
+              <img
+                src="image/manwa.jpg.png"
+                alt="Exterior Detailing"
+                class="w-full h-64 sm:h-72 object-cover transition-transform duration-500 hover:scale-110"
+              />
+            </div>
+            <p class="text-white/70 text-sm mb-2">
+              Exterior Detailing
+              <span class="text-white/50">By</span> autoaura-admin
+            </p>
+            <h3 class="text-white font-bold text-lg sm:text-xl mb-4">
+              From Dull to Showroom Shine: The Power of Car Detailing
+            </h3>
+            <a
+              href="#"
+              class="inline-flex items-center gap-1 text-white font-semibold hover:text-red-500 transition"
+            >
+              Read More <span>&rsaquo;</span>
+            </a>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-[#232323] border border-white/10 rounded-2xl p-5 sm:p-6"
+          >
+            <div class="overflow-hidden rounded-xl mb-5">
+              <img
+                src="image/lam.jpg.png"
+                alt="Car Detailing Basics"
+                class="w-full h-64 sm:h-72 object-cover transition-transform duration-500 hover:scale-110"
+              />
+            </div>
+            <p class="text-white/70 text-sm mb-2">
+              Car Detailing Basics
+              <span class="text-white/50">By</span> autoaura-admin
+            </p>
+            <h3 class="text-white font-bold text-lg sm:text-xl mb-4">
+              Why Regular Car Detailing Makes Your Car Last Longer
+            </h3>
+            <a
+              href="#"
+              class="inline-flex items-center gap-1 text-white font-semibold hover:text-red-500 transition"
+            >
+              Read More <span>&rsaquo;</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative py-14 sm:py-20 md:py-24 bg-black overflow-hidden">
+      <div class="max-w-[1400px] mx-auto px-4 sm:px-6">
+        <!-- Label -->
+        <div class="text-center mb-4">
+          <span
+            class="inline-block border border-white/40 rounded-full px-5 py-1 text-xs tracking-widest uppercase text-white/90"
+          >
+            Contact us
+          </span>
+        </div>
+
+        <!-- Heading -->
+        <h2
+          class="text-center text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-10 md:mb-14 leading-tight"
+        >
+          Have questions?<br />Get in touch!
+        </h2>
+      </div>
+
+      <!-- Image + Form (full-bleed, no side padding, no gap) -->
+      <div
+        class="flex flex-col sm:flex-row items-stretch max-w-[1400px] mx-auto px-4 sm:px-6"
+      >
+        <!-- Image -->
+        <div
+          class="w-full sm:w-3/5 rounded-l-2xl sm:rounded-r-none rounded-2xl overflow-hidden min-h-[300px] sm:min-h-[550px]"
+        >
+          <img
+            src="image/sitcar.jpg.png"
+            alt="Get in touch"
+            class="w-full h-full object-cover"
+          />
+        </div>
+
+        <!-- Form panel -->
+        <div
+          class="w-full sm:w-2/5 bg-[#232323] rounded-2xl p-6 sm:p-8 mt-6 sm:mt-0"
+        >
+          <h3
+            class="text-white font-bold text-xl sm:text-2xl mb-6 text-left text-center"
+          >
+            Send a message to staff
+          </h3>
+
+          <form class="space-y-4">
+            <div>
+              <label class="block text-white text-sm font-semibold mb-1"
+                >Full Name <span class="text-red-500">*</span></label
+              >
+              <input
+                type="text"
+                placeholder="Enter your full name"
+                class="w-full bg-transparent border border-white/30 rounded-lg px-4 py-2.5 text-white placeholder-white/50 text-sm focus:outline-none focus:border-red-500"
+              />
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+              <div>
+                <label class="block text-white text-sm font-semibold mb-1"
+                  >Email <span class="text-red-500">*</span></label
+                >
+                <input
+                  type="email"
+                  placeholder="Your mail address"
+                  class="w-full bg-transparent border border-white/30 rounded-lg px-4 py-2.5 text-white placeholder-white/50 text-sm focus:outline-none focus:border-red-500"
+                />
+              </div>
+              <div>
+                <label class="block text-white text-sm font-semibold mb-1"
+                  >Phone Number <span class="text-red-500">*</span></label
+                >
+                <input
+                  type="tel"
+                  placeholder="+123456789"
+                  class="w-full bg-transparent border border-white/30 rounded-lg px-4 py-2.5 text-white placeholder-white/50 text-sm focus:outline-none focus:border-red-500"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-white text-sm font-semibold mb-1"
+                >Your Message <span class="text-red-500">*</span></label
+              >
+              <textarea
+                rows="6"
+                placeholder="Full Message"
+                class="w-full bg-transparent border border-white/30 rounded-lg px-4 py-2.5 text-white placeholder-white/50 text-sm focus:outline-none focus:border-red-500 resize-none"
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-2.5 rounded-full text-sm transition"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative py-14 sm:py-20 md:py-24 px-4 sm:px-6 bg-black">
+      <div
+        class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start"
+      >
+        <!-- Left: Accordion -->
+        <div class="space-y-4 order-2 lg:order-1">
+          <details class="group bg-[#1a1a1a] rounded-xl px-5 sm:px-6 py-4" open>
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none py-5"
+            >
+              <span class="text-white font-semibold text-sm sm:text-base"
+                >01. How is car detailing different from a car wash?</span
+              >
+              <span
+                class="text-red-500 text-xl leading-none shrink-0 ml-4 group-open:rotate-45 transition-transform"
+                >+</span
+              >
+            </summary>
+            <p class="text-white/70 text-sm mt-3 leading-relaxed">
+              Car detailing is a deep cleaning, restoration, and protection
+              process for both the interior and exterior of your vehicle, going
+              far beyond what a regular car wash covers.
+            </p>
+          </details>
+
+          <details class="group bg-[#1a1a1a] rounded-xl px-5 sm:px-6 py-4">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none py-5"
+            >
+              <span class="text-white font-semibold text-sm sm:text-base"
+                >02. How often should I get my car detailed?</span
+              >
+              <span
+                class="text-red-500 text-xl leading-none shrink-0 ml-4 group-open:rotate-45 transition-transform"
+                >+</span
+              >
+            </summary>
+            <p class="text-white/70 text-sm mt-3 leading-relaxed">
+              It depends on your driving habits and environment, but most
+              vehicles benefit from a full detail every 4 to 6 weeks to keep the
+              paint, interior, and finish protected.
+            </p>
+          </details>
+
+          <details class="group bg-[#1a1a1a] rounded-xl px-5 sm:px-6 py-4">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none py-5"
+            >
+              <span class="text-white font-semibold text-sm sm:text-base"
+                >03. What does exterior car detailing include?</span
+              >
+              <span
+                class="text-red-500 text-xl leading-none shrink-0 ml-4 group-open:rotate-45 transition-transform"
+                >+</span
+              >
+            </summary>
+            <p class="text-white/70 text-sm mt-3 leading-relaxed">
+              Exterior detailing typically includes a hand wash, clay bar
+              treatment, machine polishing, wax or ceramic coating, tire and rim
+              cleaning, and headlight restoration.
+            </p>
+          </details>
+
+          <details class="group bg-[#1a1a1a] rounded-xl px-5 sm:px-6 py-4">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none py-5"
+            >
+              <span class="text-white font-semibold text-sm sm:text-base"
+                >04. Why choose our car detailing service?</span
+              >
+              <span
+                class="text-red-500 text-xl leading-none shrink-0 ml-4 group-open:rotate-45 transition-transform"
+                >+</span
+              >
+            </summary>
+            <p class="text-white/70 text-sm mt-3 leading-relaxed">
+              Our certified experts use premium products and proven techniques
+              to deliver consistent, showroom-quality results backed by a
+              satisfaction guarantee.
+            </p>
+          </details>
+
+          <details class="group bg-[#1a1a1a] rounded-xl px-5 sm:px-6 py-4">
+            <summary
+              class="flex items-center justify-between cursor-pointer list-none py-5"
+            >
+              <span class="text-white font-semibold text-sm sm:text-base"
+                >05. Who can benefit from your services?</span
+              >
+              <span
+                class="text-red-500 text-xl leading-none shrink-0 ml-4 group-open:rotate-45 transition-transform"
+                >+</span
+              >
+            </summary>
+            <p class="text-white/70 text-sm mt-3 leading-relaxed">
+              Anyone who wants to protect their vehicle's value and appearance
+              can benefit — from daily commuters to collectors preparing a car
+              for sale or show.
+            </p>
+          </details>
+        </div>
+
+        <!-- Right: Label + Heading + Intro text -->
+        <div class="order-1 lg:order-2">
+          <span
+            class="inline-block border border-white/40 rounded-full px-5 py-1 text-xs text-white/90 text-sm tracking-widest uppercase mb-4"
+            >FAQ</span
+          >
+          <h2
+            class="lg:text-[63px] sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-6"
+          >
+            Frequently Asked Questions
+          </h2>
+          <p class="text-white/70 text-base sm:text-lg leading-relaxed">
+            Car detailing is a deep cleaning, restoration, and protection
+            process for both the interior and exterior of your vehicle.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative py-14 sm:py-6 md:py-8 px-0 bg-black">
+      <div
+        class="px-0 mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4"
+      >
+        <a
+          href="#"
+          class="group relative block aspect-square overflow-hidden rounded-xl"
+        >
+          <img
+            src="image/logo.jpg.png"
+            alt="Instagram post"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-300 flex items-center justify-center"
+          >
+            <svg
+              class="w-8 h-8 sm:w-9 sm:h-9 text-white opacity-0 group-hover:opacity-100 scale-75 group-hover:scale-100 transition duration-300"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="4.5" />
+              <circle
+                cx="17.5"
+                cy="6.5"
+                r="1"
+                fill="currentColor"
+                stroke="none"
+              />
+            </svg>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          class="group relative block aspect-square overflow-hidden rounded-xl"
+        >
+          <img
+            src="image/towel.jpg.png"
+            alt="Instagram post"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-300 flex items-center justify-center"
+          >
+            <svg
+              class="w-8 h-8 sm:w-9 sm:h-9 text-white opacity-0 group-hover:opacity-100 scale-75 group-hover:scale-100 transition duration-300"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="4.5" />
+              <circle
+                cx="17.5"
+                cy="6.5"
+                r="1"
+                fill="currentColor"
+                stroke="none"
+              />
+            </svg>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          class="group relative block aspect-square overflow-hidden rounded-xl"
+        >
+          <img
+            src="image/back.jpg.png"
+            alt="Instagram post"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-300 flex items-center justify-center"
+          >
+            <svg
+              class="w-8 h-8 sm:w-9 sm:h-9 text-white opacity-0 group-hover:opacity-100 scale-75 group-hover:scale-100 transition duration-300"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="4.5" />
+              <circle
+                cx="17.5"
+                cy="6.5"
+                r="1"
+                fill="currentColor"
+                stroke="none"
+              />
+            </svg>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          class="group relative block aspect-square overflow-hidden rounded-xl"
+        >
+          <img
+            src="image/exhaust.jpg.png"
+            alt="Instagram post"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-300 flex items-center justify-center"
+          >
+            <svg
+              class="w-8 h-8 sm:w-9 sm:h-9 text-white opacity-0 group-hover:opacity-100 scale-75 group-hover:scale-100 transition duration-300"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="4.5" />
+              <circle
+                cx="17.5"
+                cy="6.5"
+                r="1"
+                fill="currentColor"
+                stroke="none"
+              />
+            </svg>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          class="group relative block aspect-square overflow-hidden rounded-xl"
+        >
+          <img
+            src="image/ide.jpg.png"
+            alt="Instagram post"
+            class="w-full h-full object-cover"
+          />
+          <div
+            class="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition duration-300 flex items-center justify-center"
+          >
+            <svg
+              class="w-8 h-8 sm:w-9 sm:h-9 text-white opacity-0 group-hover:opacity-100 scale-75 group-hover:scale-100 transition duration-300"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="4.5" />
+              <circle
+                cx="17.5"
+                cy="6.5"
+                r="1"
+                fill="currentColor"
+                stroke="none"
+              />
+            </svg>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <footer
+      class="relative overflow-hidden bg-[radial-gradient(ellipse_at_top_left,_#7a0f22_0%,_#3a0a12_40%,_#0a0a0a_80%)]"
+    >
+      <img
+        src="image/footer.jpg.png"
+        alt=""
+        class="absolute inset-0 w-full h-full object-cover opacity-60"
+      />
+
+      <div
+        class="relative max-w-6xl mx-auto pl-0 pr-10 sm:pl-2 sm:pr-14 pt-20 sm:pt-28 md:pt-32"
+      >
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[1.3fr_0.8fr_1fr_1fr] gap-10 lg:gap-6"
+        >
+          <!-- Brand -->
+          <div>
+            <h3 class="text-white font-extrabold text-2xl mb-4">AUTOAURA</h3>
+            <p class="text-white/70 text-xl mb-6 leading-relaxed">
+              Protect your business with cutting security solutions your needs.
+            </p>
+            <div class="flex gap-3">
+              <a
+                href="#"
+                class="w-9 h-9 bg-red-600 hover:bg-red-700 rounded-lg flex items-center justify-center transition"
+              >
+                <svg
+                  class="w-4 h-4 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="w-9 h-9 bg-red-600 hover:bg-red-700 rounded-lg flex items-center justify-center transition"
+              >
+                <svg
+                  class="w-4 h-4 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M18.9 2H22l-7 8 8.2 12h-6.4l-5-6.6L5.8 22H2.7l7.5-8.6L2.3 2h6.6l4.5 6z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="w-9 h-9 bg-red-600 hover:bg-red-700 rounded-lg flex items-center justify-center transition"
+              >
+                <svg
+                  class="w-4 h-4 text-white"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  viewBox="0 0 24 24"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" />
+                  <circle cx="12" cy="12" r="4.5" />
+                  <circle
+                    cx="17.5"
+                    cy="6.5"
+                    r="1"
+                    fill="currentColor"
+                    stroke="none"
+                  />
+                </svg>
+              </a>
+              <a
+                href="#"
+                class="w-9 h-9 bg-red-600 hover:bg-red-700 rounded-lg flex items-center justify-center transition"
+              >
+                <svg
+                  class="w-4 h-4 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M4.98 3.5C4.98 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1s2.48 1.1 2.48 2.5zM.2 8.5h4.6V23H.2zM8.4 8.5h4.4v2h.06c.6-1.2 2.1-2.4 4.3-2.4 4.6 0 5.4 3 5.4 6.9V23h-4.6v-6.6c0-1.6 0-3.6-2.2-3.6s-2.5 1.7-2.5 3.5V23H8.4z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h4 class="text-white font-bold text-base mb-4">Quick Links</h4>
+            <ul class="space-y-3 text-white/70 text-sm">
+              <li>
+                <a href="#" class="hover:text-red-400 transition">Homepage</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-red-400 transition">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-red-400 transition">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="hover:text-red-400 transition">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Our Service -->
+          <div>
+            <h4 class="text-white font-bold text-base mb-4">Our Service</h4>
+            <ul class="space-y-3 text-white/70 text-sm">
+              <li>
+                <a href="#" class="hover:text-red-400 transition"
+                  >Engine bay cleaning</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-red-400 transition"
+                  >Machine polishing</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-red-400 transition"
+                  >Scratch removal</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-red-400 transition"
+                  >Clay bar treatment</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-red-400 transition"
+                  >Hand wash & dry</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="space-y-5">
+            <div class="flex items-start gap-3">
+              <span
+                class="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center shrink-0"
+              >
+                <svg
+                  class="w-5 h-5 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C7.6 2 4 5.6 4 10c0 5.4 8 12 8 12s8-6.6 8-12c0-4.4-3.6-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                  />
+                </svg>
+              </span>
+              <div>
+                <p class="text-white font-semibold text-sm">Our Location</p>
+                <p class="text-white/70 text-sm">XYZ Hilton United State</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span
+                class="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center shrink-0"
+              >
+                <svg
+                  class="w-5 h-5 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.6c.6 0 1 .4 1 1 0 1.2.2 2.5.6 3.6.1.4 0 .8-.2 1z"
+                  />
+                </svg>
+              </span>
+              <div>
+                <p class="text-white font-semibold text-sm">Call Us 24/7</p>
+                <p class="text-white/70 text-sm">(+256) 2145.2156</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3">
+              <span
+                class="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center shrink-0"
+              >
+                <svg
+                  class="w-5 h-5 text-white"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5zm2.2.3 7.8 6.2 7.8-6.2H4.2z"
+                  />
+                </svg>
+              </span>
+              <div>
+                <p class="text-white font-semibold text-sm">Work with us</p>
+                <p class="text-white/70 text-sm">info@autoaura.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom bar: full-width border, edge to edge -->
+      <div class="relative border-t border-white/15 mt-12">
+        <div
+          class="max-w-6xl mx-auto pl-0 pr-10 sm:pl-2 sm:pr-14 py-8 sm:py-10 flex flex-col sm:flex-row items-center sm:items-center justify-between gap-3 text-white/60 text-xs"
+        >
+          <p class="text-left">© 2026 Autoaura. All Rights Reserved.</p>
+          <div class="flex gap-9">
+            <a href="#" class="hover:text-white transition">Terms</a>
+            <a href="#" class="hover:text-white transition">Privacy</a>
+            <a href="#" class="hover:text-white transition">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
